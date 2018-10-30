@@ -19,8 +19,11 @@ This folder contains files for some simple examples
 
  * **timer0Blinky_ex01.c**
     In this file we used Timer0 of PIC16F887 microcontroller to generate 1 milli second delay and we incremented 
-    a veriable and once this veriable is > 500 we toggle the state of LED and thus a flashing effect is generated 
+     a veriable and once this veriable is > 500 we toggle the state of LED and thus a flashing effect is generated 
     via timer0
+    
+ * **exISR_ex01.c**  Using external Interrupt from PIN_B0 we maintain LED status with static veriable and 
+ turn LED on if previous status == 1 and turn LED off if previous status == 0. Also update the status veriable
         
 
 ## Coding Style
