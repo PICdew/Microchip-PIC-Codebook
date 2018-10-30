@@ -26,4 +26,11 @@ This folder contains files for some simple examples
 ## Coding Style
 
 
-[Google C++ Style will be preffer but not restricted](https://google.github.io/styleguide/cppguide.html#Self_contained_Headers)
+[Google C++ Style will be preffer but not restricted](https://google.github.io/styleguide/cppguide.html#Self_contained_Headers
+
+
+
+
+
+## Collaboration
+Any kind of collaboration like more examples, examples for more architectures, corrections, comments, etc. are very welcome. Feel free to open an issue or fork and pull request.
