@@ -1,5 +1,5 @@
 # Microchip PIC Codebook
-This code book contains sample applications and demo examples for illustrating how to use different features of Microchip PIC microcontrollers in C language(Examples in other languages are welcome).
+This codebook contains sample applications and demo examples for illustrating how to use different features of Microchip PIC microcontrollers in C language(Examples in other languages are welcome).
 
 
 ## Examples
@@ -28,7 +28,7 @@ This folder contains files for some simple examples
 ## Coding Style
 
 
-[Google C++ Style will be preffer but not restricted](https://google.github.io/styleguide/cppguide.html#Self_contained_Headers
+[Google C++ Style will be preffered but not a limitation to contribute](https://google.github.io/styleguide/cppguide.html#Self_contained_Headers)
 
 
 
