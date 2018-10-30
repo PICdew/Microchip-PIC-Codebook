@@ -1,6 +1,5 @@
-# Microchip PIC Codebase
-PIC16 microcontroller based Embedded system development code base for demonstrating how to use different PIC features using C language
-
+# Microchip PIC Codebook
+This code book contains sample applications and demo examples for illustrating how to use different features of Microchip PIC microcontrollers in C language(Examples in other languages are welcome).
 
 
 ## Examples
