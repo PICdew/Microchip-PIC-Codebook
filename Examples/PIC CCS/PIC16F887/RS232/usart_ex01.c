@@ -5,6 +5,9 @@
 #use rs232(baud=9600, xmit=PIN_C6, rcv=PIN_C7)
 
 
+
+
+
 void main(){
    printf("hello world\n");
    while(True){
