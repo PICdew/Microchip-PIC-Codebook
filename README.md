@@ -23,6 +23,8 @@ This folder contains files for some simple examples
     
  * **exISR_ex01.c**  Using external Interrupt from PIN_B0 we maintain LED status with static veriable and 
  turn LED on if previous status == 1 and turn LED off if previous status == 0. Also update the status veriable
+ 
+ * **usart_ex01.c** This file will echo every character back to sender via RS232 Protocol using internall Enchanced Usart of microcontroller
         
 
 ## Coding Style
