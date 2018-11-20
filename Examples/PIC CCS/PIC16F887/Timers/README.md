@@ -21,6 +21,6 @@ We are going to describe some useful in formation about PIC16F887 timers. Most o
 
 Here are the formulas to calculate values for all three timers
 
-* $$RegValue = 256-((Delay * Fosc)/(Prescalar*4))$$  //**For timer0 **
-* $$RegValue = 65536-((Delay * Fosc)/(Prescalar*4))$$ //**For timer1 **
-* $$RegValue = 256-((Delay * Fosc)/(Prescalar*4))$$   //**For timer2 **
+* RegValue = 256-((Delay * Fosc)/(Prescalar*4))  //**For timer0**
+* RegValue = 65536-((Delay * Fosc)/(Prescalar*4)) //**For timer1**
+* RegValue = 256-((Delay * Fosc)/(Prescalar*4))   //**For timer2**
