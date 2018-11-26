@@ -36,5 +36,5 @@ This folder contains files for some simple examples
 
 
 
-## Collaboration
-Any kind of collaboration like more examples, examples for more architectures, corrections, comments, etc. are very welcome. Feel free to open an issue or fork and pull request.
+## Contributions
+Any kind of contributions, like more examples, examples for more architectures, corrections, comments, etc. are very welcome. Feel free to open an issue or fork and pull request.
