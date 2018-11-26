@@ -26,6 +26,10 @@ This folder contains files for some simple examples
  
  * **usart_ex01.c** This file will echo every character back to sender via RS232 Protocol using internall Enchanced Usart of microcontroller
         
+        
+## Projects
+
+**FrequencyCounterV01.c** Frequency Counter display over Usart PIC16F887 with 8MHz Crystal, able to count frequency randing from 1Hz upto 65KHz
 
 ## Coding Style
 
