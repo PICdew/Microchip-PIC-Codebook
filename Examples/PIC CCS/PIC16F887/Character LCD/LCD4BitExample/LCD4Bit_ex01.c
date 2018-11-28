@@ -11,7 +11,6 @@
 #device *= 16 
 #fuses HS,NOWDT,NOPROTECT,NOLVP
 #use delay(clock=8000000)
-#use I2C(Master, SDA = pin_C4, SCL = pin_C3) 
 /*------------------  LOCAL DRIVERS ---------------------------*/
 #include <LCD4Bit.c>    // Our Library undertest 
 
@@ -38,4 +37,7 @@ void printWelcomeMessage(){
    lcd_gotoxy(2,2);
    lcd_putc("Abdul Rehman");
    delay_ms (1000);
+   lcd_putc("\f Compiled On \n ");
+   printf(lcd_putc, __DATE__);
+   delay_ms(1000);
 }
