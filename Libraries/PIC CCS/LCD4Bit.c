@@ -31,6 +31,7 @@
 // RW is connected to ground
 //----------------------------------------------------------
 	#define lcd_type 2        // 0=5x7, 1=5x10, 2=2 lines 
+	#define LCD_LIB_VER 1.0
 //---------------------------------------------------------
 
 int8 const LCD_INIT_STRING[4] = 
@@ -155,5 +156,22 @@ void lcd_putc(char c)
    } 
 } 
 
+/*
+
+Print a test welcome message on LCD with fixed delay
+
+*/
+void lcd_test_print(){
+   lcd_putc("\fLCD 4BIT Driver\n"); 
+   printf(lcd_putc, "     V# %1.2f", LCD_LIB_VER);
+   delay_ms(1500);
+   lcd_putc("\fDeveloper:");
+   lcd_gotoxy(2,2);
+   lcd_putc("Abdul Rehman");
+   delay_ms (1000);
+   lcd_putc("\f Compiled On \n ");
+   printf(lcd_putc, __DATE__);
+   delay_ms(1000);
+}
 
 #endif
