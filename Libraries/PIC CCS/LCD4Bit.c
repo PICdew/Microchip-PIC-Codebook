@@ -172,6 +172,7 @@ void lcd_test_print(){
    lcd_putc("\f Compiled On \n ");
    printf(lcd_putc, __DATE__);
    delay_ms(1000);
+   lcd_putc("\f");
 }
 
 #endif
