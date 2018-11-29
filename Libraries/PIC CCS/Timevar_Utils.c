@@ -1,11 +1,10 @@
 #ifndef __TIMEVAR_UTILS_C__
 #define __TIMEVAR_UTILS_C__
+
 /*
 This library will only work upto 99 minutes 59 seconds and 99 centi-seconds
 one-centiseconds = one-second/100;
-
 */
-
 
 typedef struct{
    int8 min;      //min = sec/60; min = centsec/6000;
