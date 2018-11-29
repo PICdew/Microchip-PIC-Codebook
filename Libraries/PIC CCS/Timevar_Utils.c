@@ -17,15 +17,7 @@ typedef struct{
 void timevarToSeconds(int32 &timestamp, Timevar &mTimevar){
    timestamp = ((int32)mTimevar.min*60)+mTimevar.sec;  ; //minutes to seconds
 }
-/*
- timevar to centiseconds converter function
- will automatically call two inline functions
-*/
-#inline
-void timevarToCentiSeconds(int32 &timestamp, Timevar &mTimevar){
-   timevarToSeconds(timestamp,mTimevar);
-   secondsToCentiSeconds(timestamp,mTimevar.centsec);
-}
+
 
 /*
 takes refference of timeInSeconds variable of int32 and 
@@ -36,6 +28,17 @@ multiplying it with 100 and add provided @centsec of type int8
 void secondsToCentiSeconds(int32 &timeInSeconds, int8 centsec){
    timeInSeconds = (timeInSeconds*100)+centsec;
 
+}
+
+
+/*
+ timevar to centiseconds converter function
+ will automatically call two inline functions
+*/
+#inline
+void timevarToCentiSeconds(int32 &timestamp, Timevar &mTimevar){
+   timevarToSeconds(timestamp,mTimevar);
+   secondsToCentiSeconds(timestamp,mTimevar.centsec);
 }
 
 /*
