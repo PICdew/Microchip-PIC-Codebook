@@ -28,7 +28,6 @@
    #define SW_RESET  PIN_D7
    
 //------------ Veriables -------------
-long globalTimeStamp = 0;
 
 typedef struct{
    int8 min;      //min = sec/60; min = centsec/6000;
@@ -45,10 +44,7 @@ void timevarFromCentiseconds(int32 &centiseconds, Timevar &mTimevar);
 void secondsToCentiSeconds(int32 &timestamp, int8 centsec);
 int8 centisecondsToMinutes(int32 &centiseconds);
 int8 centisecondsToSeconds(int32 &centiseconds);
-//-----------------------------------------------------------------
-void displayTimeStamp(int32 &tstamp,int8 ftype);
-int8 getMinutes(long &tstamp);
-void addMinutes(long &tstamp, int8 mnToAdd);
+
 
 /*------ Main Starts here --------------------------------------*/
 void main(void){
@@ -81,21 +77,7 @@ void main(void){
     
    }//while(True) ends here
 }//main ends here
-/*-----------------------------------------------------------------*/
 
-void displayTimeStamp(long &tstamp, int8 ftype){
-   int8 hour=0, minut=0, seconds=0, milli_seconds=0;
-   switch(ftype){
-      case 1:
-      break;
-      
-      case 2:
-      break;
-      
-      case 3:
-      break;
-     }
-}
 //----------------------------------------------------------------
 #inline
 void timevarPrint(Timevar &tvar){
@@ -137,17 +119,4 @@ void timevarFromCentiseconds(int32 &centiseconds, Timevar &mTimevar){
 }
 //----------------------------------------------------------------
 
-int8 getMinutes(long &tstamp){
-   
 
-}
-
-void addMinutes(long &tstamp, int8 mnToAdd){
-/*
-   This function will take time stamp in miliseconds 
-   and @mnToAdd minutes to add with it 
-   it converts @mnToAdd to milliseconds by multitplying it
-   with 60000 and add to @&tstamp
-*/
-   tstamp += (mnToAdd*60000);
-}
