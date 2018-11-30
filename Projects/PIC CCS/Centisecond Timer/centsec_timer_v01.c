@@ -1,3 +1,19 @@
+/*
+
+   This file will produce 10 milisecond delay 
+   and increment centi-second counter everytime 
+   timer0 interrupt occurs. In interrupt we also raise 
+   a flag indicating that value has been changed so that 
+   using that variable we would be able to display 
+   updated value to 16x2 character lcd. 
+   We also use Timevar_Utils library to convert this 
+   centi-second variable into proper time format
+   and display that on LCD
+
+
+*/
+
+
 #include<16F887.h>
 #device *=16
 #fuses HS,NOWDT,NOPROTECT,NOLVP
