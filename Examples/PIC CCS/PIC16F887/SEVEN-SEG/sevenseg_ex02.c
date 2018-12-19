@@ -1,6 +1,6 @@
 /*==========================================================
 
-@Description: This code is TWO digit auto Counter [0-9], 
+@Description: This code is TWO digit auto Counter [0-99], 
               Common Andoe Seven Segment display,multiplexed
 
 @Author:      Abdul Rehman
