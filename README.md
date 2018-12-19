@@ -25,6 +25,10 @@ This folder contains files for some simple examples
  turn LED on if previous status == 1 and turn LED off if previous status == 0. Also update the status veriable
  
  * **usart_ex01.c** This file will echo every character back to sender via RS232 Protocol using internall Enchanced Usart of microcontroller
+ 
+ * **sevenseg_ex01.c** single digit seven segment interface. Auto increment Up Counter from 0-9
+ 
+ * **sevenseg_ex02.c** two digit up counter from 0-99. Multiplexing of two digit seven segments
         
         
 ## Projects
