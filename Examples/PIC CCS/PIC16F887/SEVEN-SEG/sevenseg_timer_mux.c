@@ -4,7 +4,7 @@
    @Description: 4 digit Seven segment multiplexing via timer interrupt
    @Author:      Abdul Rehman
    @Date:        19-Dec-2018
-   @Time:        7:33 PM
+   @Time:        7:33 PM  -> 8:50 PM
    ---------------------------------------------------------------------
 
 */
