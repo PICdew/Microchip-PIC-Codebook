@@ -29,6 +29,8 @@ This folder contains files for some simple examples
  * **sevenseg_ex01.c** single digit seven segment interface. Auto increment Up Counter from 0-9
  
  * **sevenseg_ex02.c** two digit up counter from 0-99. Multiplexing of two digit seven segments
+ 
+ * **sevenseg_timer_mux.c** 4 digit 7segment multiplexing using timer0 interrupt
         
         
 ## Projects
